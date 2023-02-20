@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v3.1.2
         with:
           name: chimeraos-2023.02.20-x86_64.iso
-          path: chimeraos-2023.02.20-x86_64.iso
+          path: /root/chimeraos/output/chimeraos-2023.02.20-x86_64.iso
