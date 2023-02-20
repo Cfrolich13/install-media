@@ -10,7 +10,7 @@ dmesg --console-level 1
 #### Test conenction or ask the user for configuration ####
 
 # Waiting a bit because some wifi chips are slow to scan 5GHZ networks
-sleep 2
+sleep 10
 
 while ! ( curl -Ls https://github.com | grep '<html' > /dev/null ); do
     whiptail \
